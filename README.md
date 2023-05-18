@@ -11,7 +11,7 @@ Do not install packages using sudo or root
 ## Clone the repository
 
 ```bash
-git clone git@gitlab.rim.net:dcc/juniper/junos-verification.git
+git clone https://github.com/lxuchen/junos-verification.git
 ```
 
 ## Navigate to the project directory
@@ -42,7 +42,7 @@ pip3 install -r requirements.txt
 ## Quickstart
 
 ```bash
-git clone git@gitlab.rim.net:dcc/juniper/junos-verification.git
+git clone https://github.com/lxuchen/junos-verification.git
 cd junos-verification/project
 pip3 install virtualenv
 source venv/bin/activate

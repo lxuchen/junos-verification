@@ -105,7 +105,7 @@ while True:
 
     if choice == 'p' or choice == 'v':
         # Prompt the user to input the username and password
-        username = input("Enter your RIMNET username: ")
+        username = input("Enter your username: ")
         password = getpass.getpass("Enter the password: ")
         for device_type, devices in module.DEVICE_OBJECTS.items():
             run_commands_on_group(devices, choice)

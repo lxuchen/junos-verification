@@ -19,7 +19,7 @@ def diff_files(file1, file2):
         print(diff_str)
 
 # Example usage
-# file1 = 'tmp/pe1.cnc1.ts.glb.ntw.blackberry_pre.output'
-# file2 = 'tmp/pe1.cnc1.ts.glb.ntw.blackberry_post.output'
+# file1 = 'tmp/router_1_pre.output'
+# file2 = 'tmp/router_2_post.output'
 # diff_str = diff_files(file1, file2)
 # print(diff_str)
